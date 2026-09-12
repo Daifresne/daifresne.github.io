@@ -212,6 +212,69 @@ main { flex: 1; padding-top: 38px; padding-bottom: 70px; }
   border-color: rgba(255,184,77,.45);
 }
 
+/* ---------- 友链 ---------- */
+
+.link-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 12px;
+  margin-bottom: 34px;
+}
+
+.link-card {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  height: 100%;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  color: inherit;
+  transition: transform .15s ease, border-color .15s ease;
+}
+
+.link-card:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+  border-color: rgba(255,184,77,.45);
+}
+
+.link-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  background: var(--bg-soft);
+}
+
+.link-avatar-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.link-info { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.link-name { font-size: 15px; font-weight: 800; color: var(--text); }
+.link-desc { font-size: 12.5px; color: var(--text-dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.link-host { font-size: 11.5px; color: #5d6679; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.link-apply {
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+}
+
+.link-apply h2 { font-size: 15px; font-weight: 800; margin-bottom: 5px; }
+.link-apply p { font-size: 13px; color: var(--text-dim); }
+
 .cat-name { font-size: 16px; font-weight: 800; color: var(--accent); }
 .cat-count { font-size: 12px; color: var(--text-dim); }
 

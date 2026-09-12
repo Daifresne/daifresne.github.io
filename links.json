@@ -1,0 +1,14 @@
+[
+  {
+    "name": "示例站点 A",
+    "url": "https://example.com",
+    "desc": "这是示例，换成你朋友的博客就行",
+    "avatar": ""
+  },
+  {
+    "name": "示例站点 B",
+    "url": "https://example.org",
+    "desc": "avatar 留空就自动显示名字首字",
+    "avatar": ""
+  }
+]
