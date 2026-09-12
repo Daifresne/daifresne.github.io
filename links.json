@@ -1,14 +1,14 @@
 [
   {
-    "name": "示例站点 A",
-    "url": "https://example.com",
-    "desc": "这是示例，换成你朋友的博客就行",
+    "name": "UIT",
+    "url": "https://uit.kokomi.ltd/",
+    "desc": "大工城院UIT部门",
     "avatar": ""
   },
   {
-    "name": "示例站点 B",
-    "url": "https://example.org",
-    "desc": "avatar 留空就自动显示名字首字",
+    "name": "1W3",
+    "url": "https://daifresne.github.io/a-story-about-ti-1w3/",
+    "desc": "一个关于电赛1w3的故事",
     "avatar": ""
   }
 ]
