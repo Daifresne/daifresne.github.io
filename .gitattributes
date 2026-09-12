@@ -1,0 +1,9 @@
+# 统一用 LF，避免 Windows 本地和 Actions 的 Linux 之间反复改写行尾
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
