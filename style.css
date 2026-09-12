@@ -64,13 +64,24 @@ a:hover { text-decoration: underline; }
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
   font-weight: 800;
   font-size: 15px;
   color: var(--text);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
+
+.brand-logo {
+  width: 22px;
+  height: 22px;
+  border-radius: 5px;
+  display: block;
+  flex-shrink: 0;
+}
+
+.brand span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 .brand:hover { text-decoration: none; color: var(--accent); }
 
