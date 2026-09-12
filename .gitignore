@@ -1,0 +1,8 @@
+# 构建产物，由 GitHub Actions 或本地 build.js 生成，不入库
+public/
+
+# 杂项
+node_modules/
+Thumbs.db
+.DS_Store
+*.log
