@@ -4,7 +4,14 @@
   "url": "https://daifresne.github.io",
   "description": "项目记录、电赛笔记，以及各种折腾过的东西。",
 
-  "nav": ["首页", "分类", "友链", "关于", "1W3的故事","RSS"],
+  "nav": [
+    "首页",
+    "分类",
+    "友链",
+    "关于",
+    { "label": "1W3的故事", "href": "https://daifresne.github.io/a-story-about-ti-1w3/" },
+    "RSS"
+  ],
 
   "tags": [
     "1w3的故事",
