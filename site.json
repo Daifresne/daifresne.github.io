@@ -1,0 +1,45 @@
+{
+  "name": "Daifresne 的折腾记录",
+  "author": "Daifresne",
+  "url": "https://daifresne.github.io",
+  "description": "项目记录、电赛笔记，以及各种折腾过的东西。",
+
+  "nav": ["首页", "分类", "友链", "关于", "RSS"],
+
+  "tags": [
+    "嵌入式",
+    "单片机",
+    "电路",
+    "电赛",
+    "折腾",
+    "踩坑",
+    "工具",
+    "前端",
+    "Node",
+    "随笔",
+    "模板"
+  ],
+
+  "links": [
+    {
+      "name": "UIT",
+      "url": "https://uit.kokomi.ltd/",
+      "desc": "大工城院UIT部门",
+      "avatar": ""
+    },
+    {
+      "name": "PIT",
+      "url": "https://www.dgcypit.top/",
+      "desc": "大工城院PIT部门",
+      "avatar": ""
+    },
+    {
+      "name": "1W3",
+      "url": "https://daifresne.github.io/a-story-about-ti-1w3/",
+      "desc": "一个关于电赛1w3的故事",
+      "avatar": ""
+    }
+  ],
+
+  "posts": {}
+}
