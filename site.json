@@ -1,12 +1,13 @@
 {
-  "name": "Daifresne 的折腾记录",
-  "author": "Daifresne",
+  "name": "Daifresne Blog",
+  "author": "Daifresne_tsgp",
   "url": "https://daifresne.github.io",
   "description": "项目记录、电赛笔记，以及各种折腾过的东西。",
 
   "nav": ["首页", "分类", "友链", "关于", "RSS"],
 
   "tags": [
+    "1w3的故事",
     "嵌入式",
     "单片机",
     "电路",
