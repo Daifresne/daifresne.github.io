@@ -627,6 +627,8 @@ ${links.length ? `<ul class="link-grid">${links.map((l) => {
   );
 
   // ---- RSS ----
+  // pubDate 后面那个 Z 不能省：不加的话 "2026-09-12T00:00:00" 按构建机的本地时区解析，
+  // 本地（UTC+8）建出来和 Actions 上（UTC）建出来会差 8 小时，同一个站两个时间
   const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
 <title>${escapeHtml(CONFIG.name)}</title>
@@ -637,7 +639,7 @@ ${posts.slice(0, 20).map((p) => `<item>
   <title>${escapeHtml(p.title)}</title>
   <link>${CONFIG.url}/posts/${encodeURIComponent(p.slug)}.html</link>
   <guid>${CONFIG.url}/posts/${encodeURIComponent(p.slug)}.html</guid>
-  <pubDate>${new Date(p.date + "T00:00:00").toUTCString()}</pubDate>
+  <pubDate>${new Date(p.date + "T00:00:00Z").toUTCString()}</pubDate>
   <description>${escapeHtml(p.summary)}</description>
 </item>`).join("\n")}
 </channel></rss>`;
